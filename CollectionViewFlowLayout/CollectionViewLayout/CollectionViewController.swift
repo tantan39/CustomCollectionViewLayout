@@ -15,7 +15,8 @@ class CollectionViewController: UIViewController, UICollectionViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        let layout = AlbumCollectionViewLayout()
+        collectionView.setCollectionViewLayout(layout, animated: true)
         collectionView.register(UINib(nibName: "CollectionViewCell", bundle: .main), forCellWithReuseIdentifier: "cellId")
         collectionView.dataSource = self
         

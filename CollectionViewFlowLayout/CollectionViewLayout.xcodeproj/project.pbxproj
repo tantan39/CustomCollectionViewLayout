@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A7861DDB2430571A00CC912B /* CollectionViewFlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewFlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7861DDB2430571A00CC912B /* CollectionViewLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7861DE02430571A00CC912B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A7861DE52430571A00CC912B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7861DE72430571B00CC912B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		A7861DD22430571A00CC912B = {
 			isa = PBXGroup;
 			children = (
-				A7861DDD2430571A00CC912B /* CollectionViewFlowLayout */,
+				A7861DDD2430571A00CC912B /* CollectionViewLayout */,
 				A7861DDC2430571A00CC912B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 		A7861DDC2430571A00CC912B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7861DDB2430571A00CC912B /* CollectionViewFlowLayout.app */,
+				A7861DDB2430571A00CC912B /* CollectionViewLayout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A7861DDD2430571A00CC912B /* CollectionViewFlowLayout */ = {
+		A7861DDD2430571A00CC912B /* CollectionViewLayout */ = {
 			isa = PBXGroup;
 			children = (
 				A7861DF624305DDE00CC912B /* AppDelegate.swift */,
@@ -73,15 +73,15 @@
 				A7861DE92430571B00CC912B /* LaunchScreen.storyboard */,
 				A7861DEC2430571B00CC912B /* Info.plist */,
 			);
-			path = CollectionViewFlowLayout;
+			path = CollectionViewLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A7861DDA2430571A00CC912B /* CollectionViewFlowLayout */ = {
+		A7861DDA2430571A00CC912B /* CollectionViewLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7861DEF2430571B00CC912B /* Build configuration list for PBXNativeTarget "CollectionViewFlowLayout" */;
+			buildConfigurationList = A7861DEF2430571B00CC912B /* Build configuration list for PBXNativeTarget "CollectionViewLayout" */;
 			buildPhases = (
 				A7861DD72430571A00CC912B /* Sources */,
 				A7861DD82430571A00CC912B /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = CollectionViewFlowLayout;
+			name = CollectionViewLayout;
 			productName = CollectionViewFlowLayout;
-			productReference = A7861DDB2430571A00CC912B /* CollectionViewFlowLayout.app */;
+			productReference = A7861DDB2430571A00CC912B /* CollectionViewLayout.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A7861DD62430571A00CC912B /* Build configuration list for PBXProject "CollectionViewFlowLayout" */;
+			buildConfigurationList = A7861DD62430571A00CC912B /* Build configuration list for PBXProject "CollectionViewLayout" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7861DDA2430571A00CC912B /* CollectionViewFlowLayout */,
+				A7861DDA2430571A00CC912B /* CollectionViewLayout */,
 			);
 		};
 /* End PBXProject section */
@@ -297,7 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CollectionViewFlowLayout/Info.plist;
+				INFOPLIST_FILE = /Users/phdvasiamac04/Desktop/Git/CustomCollectionViewLayout/CollectionViewFlowLayout/CollectionViewLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +314,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CollectionViewFlowLayout/Info.plist;
+				INFOPLIST_FILE = /Users/phdvasiamac04/Desktop/Git/CustomCollectionViewLayout/CollectionViewFlowLayout/CollectionViewLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A7861DD62430571A00CC912B /* Build configuration list for PBXProject "CollectionViewFlowLayout" */ = {
+		A7861DD62430571A00CC912B /* Build configuration list for PBXProject "CollectionViewLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7861DED2430571B00CC912B /* Debug */,
@@ -338,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7861DEF2430571B00CC912B /* Build configuration list for PBXNativeTarget "CollectionViewFlowLayout" */ = {
+		A7861DEF2430571B00CC912B /* Build configuration list for PBXNativeTarget "CollectionViewLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7861DF02430571B00CC912B /* Debug */,
