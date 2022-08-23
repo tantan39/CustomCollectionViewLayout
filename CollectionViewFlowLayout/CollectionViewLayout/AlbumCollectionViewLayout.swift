@@ -71,8 +71,9 @@ class AlbumCollectionViewLayout: UICollectionViewLayout {
             case .fourItems:
                 
                 for i in 0..<4 where currentIndex < count {
+                    let temps = yOffsets.map { Int($0) }
+                    let col = temps.firstIndex(of: temps.min() ?? 0) ?? 0
                     let minY = yOffsets.min() ?? 0
-                    let col = yOffsets.firstIndex(of: minY) ?? 0
 
                     if i == 1 {
                         frame = CGRect(x: CGFloat(col) * itemSize, y: minY, width: itemSize * 2, height: itemSize * 3).insetBy(dx: padding, dy: padding)
